@@ -39,7 +39,7 @@ String getNum1,getNum2,getResult;
          b2.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 Toast.makeText(getApplicationContext(),"Welcome",Toast.LENGTH_LONG).show();
+//                 Toast.makeText(getApplicationContext(),"Welcome",Toast.LENGTH_LONG).show();
                  Intent inte=new Intent(getApplicationContext(),WelcomActivity.class);
                  startActivity(inte);
              }

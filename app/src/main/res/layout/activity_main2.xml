@@ -6,13 +6,13 @@
         android:layout_height="wrap_content" android:text="Number1"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:inputType="number" android:id="@+id/nn"/>
+        android:layout_height="wrap_content" android:inputType="number" android:id="@+id/nn" android:hint="numberonly"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" android:text="Number2"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:inputType="number" android:id="@+id/nm"/>
+        android:layout_height="wrap_content" android:inputType="number" android:id="@+id/nm" android:hint="numberonly"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content" android:id="@+id/butn" android:text="ADD"/>
